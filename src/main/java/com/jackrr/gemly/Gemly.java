@@ -1,6 +1,9 @@
 package com.jackrr.gemly;
 
+import com.jackrr.gemly.block.ModBlocks;
+import com.jackrr.gemly.fluids.ModFluids;
 import com.jackrr.gemly.item.ModItems;
+import com.jackrr.gemly.fluids.ModFluidTypes;
 import com.jackrr.gemly.tab.ModCreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -23,7 +26,8 @@ public class Gemly {
     public Gemly(IEventBus modEventBus, ModContainer modContainer) {
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
-
-
+        ModBlocks.register(modEventBus);
+        ModFluids.register(modEventBus);
+        ModFluidTypes.register(modEventBus);
     }
 }

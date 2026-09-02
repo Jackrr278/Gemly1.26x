@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "minecraft:block/water"
+    }
+  }
+}

@@ -1,9 +1,8 @@
 {
+  "creativetab.gemify.gemly_tab": "Gemly Tab",
+
   "item.gemly.white_aura_bottle": "White Aura Bottle",
   "item.gemly.yellow_aura_bottle": "Yellow Aura Bottle",
   "item.gemly.blue_aura_bottle": "Blue Aura Bottle",
-  "item.gemly.pink_aura_bottle": "Pink Aura Bottle",
-  "creativetab.gemify.gemify_tab": "Gemify Tab"
-
-
+  "item.gemly.pink_aura_bottle": "Pink Aura Bottle"
 }

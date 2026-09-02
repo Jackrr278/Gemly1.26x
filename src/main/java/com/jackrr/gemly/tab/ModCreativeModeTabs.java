@@ -17,7 +17,7 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> GEMLY_TAB = CREATIVE_MODE_TABS.register("gemify_tab",
     () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.WHITE_AURA_BOTTLE.get()))
-            .title(Component.translatable("creativetab.gemify.gemify_tab"))
+            .title(Component.translatable("creativetab.gemify.gemly_tab"))
             .displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModItems.WHITE_AURA_BOTTLE);
                 output.accept(ModItems.YELLOW_AURA_BOTTLE);
