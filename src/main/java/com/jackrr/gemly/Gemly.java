@@ -1,6 +1,7 @@
 package com.jackrr.gemly;
 
 import com.jackrr.gemly.item.ModItems;
+import com.jackrr.gemly.tab.ModCreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -20,6 +21,7 @@ public class Gemly {
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public Gemly(IEventBus modEventBus, ModContainer modContainer) {
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
 
 
